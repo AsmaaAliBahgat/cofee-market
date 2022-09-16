@@ -1,0 +1,142 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
+nav{
+     
+    background: linear-gradient(to bottom, #271815, #271725,#271627 ,#D4A276);
+}
+div .carousel-item {
+    position: relative;
+}
+h1{
+    color: black;
+}
+.carousel-inner > .item {
+    position: relative;
+    max-height: 600px;
+}
+.carousel-caption {
+    position: absolute;
+    top: 30%;
+	left:50%;
+    transform: translateY(-50%);
+    transform: translatex(-40%);
+    
+}
+.modal .modal-dialog .modal-content{
+    background: linear-gradient(to bottom, #271815, #271725,#271627 ,#D4A276);
+    
+}
+ .container-fluid{
+    color: white;
+    background: linear-gradient(to bottom, #271815, #271725,#271627 ,#D4A276);
+}
+
+div .card .card-body{
+    font-weight: 200;
+    font-size:small;
+}
+div .card{
+    transition: transform 0.9s;
+    width: 10rem;
+    height:18rem;
+    display: inline;
+    background: linear-gradient(to bottom, #271725 ,#D4A276);
+    color: white;
+}
+div .card a h5{
+    font-weight: 200;
+    color: wheat;
+    justify-content: flex-end;
+    text-decoration:none;
+    margin-left:0px;
+    margin-bottom:0px;
+    
+}
+div .card:hover {
+    transform: scale(1.1);
+    background-color: #A68365;
+    border-radius: inherit; /* !importanté */
+    background: linear-gradient(to bottom, #D4A276,#271815);
+    border-width: 3px;
+    border-style: solid;
+    border-image: 
+      linear-gradient(
+        to bottom, 
+        #271815, 
+        rgba(0, 0, 0, 0)
+      ) 1 100%;
+}
+div .container-fluid h2{
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+.fixedimg{
+    background-attachment: fixed;
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #d3c3a1;
+}
+.fixedimg1{
+    /* background-image: url(../img/header/B4jimJ0liyAwkTM4LB6rJX1LopdFqNfweeMjQ5Je.webp); */
+    background-image: url(../img/header/_85540312_thinkstockphotos-487181582.jpg);
+}
+.container-fluid .offers .offer1 ,
+.container-fluid .offers .offer2 ,
+.container-fluid .offers .offer3 ,
+.container-fluid .offers .offer4 ,
+.container-fluid .offers .offer5 { 
+    color: white;
+    background-size: cover;
+    height: 16rem;
+    padding: 50px;
+    transition: transform 0.9s;
+}
+.container-fluid .offers h2{
+    text-align: left;
+}
+.container-fluid .offers .offer1{
+    background-image: url(../img/offers/coffee.webp);
+}
+.container-fluid .offers .offer2{
+    background-image: url(../img/offers/HD-wallpaper-coffee-cup-coffee-beans-sugar.jpg);
+}
+.container-fluid .offers .offer3{
+    background-image: url(../img/offers/coffee-background-space-text-85121087.jpg);
+}
+.container-fluid .offers .offer4{
+    background-image: url(../img/offers/360_F_436777481_3Nk1sGJwa9UaYtJZ8dzeHVZrV4j0ACo3.jpg);
+}
+.container-fluid .offers .offer5{
+    background-image: url(../img/offers/148940-microphone-on-stage.webp);
+    
+}
+.container-fluid .offers .offer1:hover ,
+.container-fluid .offers .offer2:hover ,
+.container-fluid .offers .offer3:hover ,
+.container-fluid .offers .offer4:hover ,
+.container-fluid .offers .offer5:hover{
+    transform: scale(1.1);
+}
+
+.About{
+    background: linear-gradient(to bottom, #271815, #271725,#271627 ,#D4A276);
+    color: white;
+    height: 100vh;
+}
+
+

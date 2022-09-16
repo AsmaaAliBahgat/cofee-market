@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coffee market</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==
+    " crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anek+Odia:wght@200;300&family=Dancing+Script:wght@600&family=Freehand&family=Lobster&family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light  justify-content-between">
+        <div class="container">
+            <div class=""><a class="navbar-brand " href="#"><img src="img/logo.webp" class="logo" alt=""></a></div>
+            <div><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item active ">
+                    <a class="nav-link text-light" href="index.html">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                        <a class="nav-link text-light " href="Shop.html">Shop</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="Contact.html">Countact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="About.html">About</a>
+                  </li>
+                 
+                  <li class="nav-item">
+                    <a class="nav-link text-light " href="#"><i class="fas fa-lock"></i></a>
+                  </li>
+                </ul>
+                <form action="" class="d-flex" >
+                    <button type="button" class="btn btn-outline-light btn-sm" data-bs-toggle="modal" data-bs-target="#ModalLoginForm">
+                        Sign Up
+                    </button>
+                </form>
+              </div>
+              
+            </div>
+        </div>
+      </nav>
+    <!-- </nav> -->
+
+    <div class="container-fluid p-0">
+        <!-- carousel -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" 
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"class="active"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/header/beach.jpg" class="d-block w-100" height="550px" alt="pic1">
+                    <div class="carousel-caption">
+                        <h1>your fav drink here</h1>
+                        <div>Super Value Deals With All Products</div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/header/beachco.jpg" class="d-block w-100" height="550px" alt="pic2">
+                    <div class="carousel-caption">
+                        <h1>A completely differrent coffee</h1>
+                        <div>Roasting is one of the most delicate and important moments in coffee production.</div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/header/beachcoffe.jpg" class="d-block w-100" height="550px" alt="pic3">
+                    <div class="carousel-caption">
+                        <h1>Taste our rich,full-flavour coffee.</h1>
+                        <div>We offer a personalised service.</div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/header/beachcc.jpg" class="d-block w-100" height="550px" alt="pic4">
+                    <div class="carousel-caption">
+                        <h1>Coffee Starting as a hobby</h1>
+                        <div>producing coffee for family and friends.</div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- /carousel -->
+
+        <!-- cards shipping -->
+        <div class="container-fluid">
+            <div class="row justify-content-around" style="border-radius: 7px;">
+                <!-- order card -->
+                <div class="card col-lg-3 col-md-4 col-sm-6 m-1 mt-5">
+                    <a href="" target="_blank">
+                        <img src="img/header/features/57799024-coffee-take-away-order-online-delivery-menu-concept.webp" style=" height:150px;" class="card-img-top" alt="html pic"></a>
+                    <div class="card-body">
+                        <h6 class="card-title">Online order</h6>
+                        <p class="card-text">Get your order online and save time</p>
+                    </div>
+                </div>
+                <!-- /order card -->
+                <!-- delievery card -->
+                <div class="card col-lg-3 col-md-4 col-sm-6 m-1 mt-5">
+                    <a href="" target="_blank">
+                        <img src="img/header/features/68197243.jpg" style=" height:150px;" class="card-img-top" alt="css pic"></a>
+                    <div class="card-body">
+                        <h6 class="card-title">Free delievery</h6>
+                        <p class="card-text">your order will be deliver to your location</p>
+            
+                    </div>
+                </div>
+                <!-- /delievery card -->
+                                <!-- happy card -->
+                                <div class="card col-lg-3 col-md-4 col-sm-6 m-1 mt-5">
+                                    <a href="" target="_blank">
+                                        <img src="img/header/features/cup-of-coffee-1.jpg" style=" height:150px;" class="card-img-top" alt="css pic"></a>
+                                    <div class="card-body">
+                                        <h6 class="card-title">Happy sell</h6>
+                                        <p class="card-text">enjoy your ordering</p>
+                            
+                                    </div>
+                                </div>
+                                <!-- /happy card -->
+                <!-- preference card -->
+                <div class="card col-lg-3 col-md-4 col-sm-6 m-1 mt-5" >
+                    <a href="" target="_blank">
+                        <img src="img/header/features/istockphoto-1057860074-612x612.jpg" style=" height:150px;" class="card-img-top" alt="css pic" height="265PX"></a>
+                    <div class="card-body">
+                        <h6 class="card-title">preference</h6>
+                        <p class="card-text">chooce your fav hot drink with the best beans coffe</p>
+                        
+                    </div>
+                </div>
+                <!-- /preference card -->
+                <!-- support card -->
+                <div class="card col-lg-3 col-md-4 col-sm-6 m-1 mt-5" >
+                    <a href="" target="_blank">
+                        <img src="img/header/features/DSC_5392+finish.avif" style=" height:150px;" class="card-img-top" alt="css pic" height="265PX"></a>
+                    <div class="card-body">
+                        <h6 class="card-title">support</h6>
+                        <p class="card-text">for any question or feedback contact us</p>
+                        
+                    </div>
+                </div>
+                <!-- /support card -->
+            </div>
+        </div>
+<br><br><br>
+      
+    <!--featured products-->
+    <div class="container-fluid">
+        <div class="row justify-content-around " style="border-radius: 7px;">
+            <h2>Featured Products</h2>
+            <!-- product1 -->
+            <div class="card col-xl-4 col-lg-4 col-md-4 col-sm-6 m-1 mt-5">
+                <a href="" target="_blank">
+                    <img src="img/products/279673.webp" style=" height:150px;" class="card-img-top" alt="html pic"></a>
+                <div class="card-body">
+                    <h6 class="card-title">coffee</h6>
+                    <p class="card-text">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <div style="color: brown; font-weight:bold">150$</div>
+                    </p>
+                </div>
+            </div>
+            <!-- /product1 -->
+            <!-- product2 -->
+            <div class="card col-lg-4 col-md-4 col-sm-6 m-1 mt-5">
+                <a href="" target="_blank">
+                    <img src="img/products/4a45b3cefad95a31bd27cac0a8cb94e3.jpg" style=" height:150px;" class="card-img-top" alt="css pic"></a>
+                <div class="card-body">
+                    <h6 class="card-title">Free delievery</h6>
+                    <p class="card-text">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <div style="color: brown; font-weight:bold">150$</div>
+                    </p>
+        
+                </div>
+            </div>
+            <!-- /product2 -->
+                            <!-- product3-->
+                            <div class="card col-lg-4 col-md-4 col-sm-6 m-1 mt-5">
+                                <a href="" target="_blank">
+                                    <img src="img/products/71oAtNeq8iL._SX425_.jpg" style=" height:150px;" class="card-img-top" alt="css pic"></a>
+                                <div class="card-body">
+                                    <h6 class="card-title">White coffe</h6>
+                                    <p class="card-text">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <div style="color: brown; font-weight:bold">150$</div>
+                                    </p>
+                        
+                                </div>
+                            </div>
+                            <!-- /product3 -->
+            <!-- product4 -->
+            <div class="card col-lg-3 col-md-4 col-sm-6 m-1 mt-5" >
+                <a href="" target="_blank">
+                    <img src="img/products/81e0b+Y1xSL._SX385_PIbundle-6,TopRight,0,0_AA385SH20_.jpg" style=" height:150px;" class="card-img-top" alt="css pic" height="265PX"></a>
+                <div class="card-body">
+                    <h6 class="card-title">coffe can</h6>
+                    <p class="card-text">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <div style="color: brown; font-weight:bold">150$</div>
+                    </p>
+                    
+                </div>
+            </div>
+            <!-- /product4-->
+            <!-- product5-->
+            <div class="card col-lg-3 col-md-4 col-sm-6 m-1 mt-5" >
+                
+                    <img class="card-img-top" src="img/products/more.jpg" style=" height:150px;" class="<div class="card">
+                        
+                        
+                       
+                <div class="card-body">
+                    <a href="Shop.html" target="_blank"> <h5 class="mt-auto">see more <i class="fas fa-angle-double-right"></i></h5></a>
+             
+            </div>
+            <!-- /product5 -->
+            
+            </div>
+            
+
+    </div>
+
+    <div class="fixedimg fixedimg1">
+        <pre>
+            <h2>UP to <span style="color: #F39223;">70% off</span> - All products</h2> 
+            <button type="button" class="btn btn-sm btn-outline-light">Explore more</button>
+        </pre>
+        
+    </div>
+
+    <!-- new arrival section -->
+
+    <div class="container-fluid">
+        <div class="row justify-content-around pb-5 " style="border-radius: 7px;">
+            <h2>New Arrival</h2>
+
+           
+            <div class="card col-lg-3 col-md-4 col-sm-6 m-1 mt-5">
+                <a href="" target="_blank">
+                    <img src="img/products/279673.webp" style=" height:150px;" class="card-img-top" alt="html pic"></a>
+                <div class="card-body">
+                    <h6 class="card-title">coffee</h6>
+                    <p class="card-text">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <div style="color: brown; font-weight:bold">150$</div>
+                    </p>
+                </div>
+            </div>
+           
+            <div class="card col-lg-3 col-md-4 col-sm-6 m-1 mt-5" >
+                <a href="" target="_blank">
+                    <img src="img/products/s-l300.jpg" style=" height:150px;" class="card-img-top" alt="css pic" height="265PX"></a>
+                <div class="card-body">
+                    <h6 class="card-title">starbacks</h6>
+                    <p class="card-text">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i></p>
+                        <div style="color: brown; font-weight:bold">150$</div>
+                    
+                </div>
+            </div>
+
+            <div class="card col-lg-3 col-md-4 col-sm-6 m-1 mt-5" >
+                <a href="" target="_blank">
+                    <img src="img/products/attachment_114421549.jpg" style=" height:150px;" class="card-img-top" alt="css pic" height="265PX"></a>
+                <div class="card-body">
+                    <h6 class="card-title">White coffee</h6>
+                    <p class="card-text">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i></p>
+                        <div style="color: brown; font-weight:bold">150$</div>
+                    
+                </div>
+            </div>
+
+            <div class="card col-lg-3 col-md-4 col-sm-6 m-1 mt-5" >
+                <a href="" target="_blank">
+                    <img src="img/products/21.jpg" style=" height:150px;" class="card-img-top" alt="css pic" height="265PX"></a>
+                <div class="card-body">
+                    <h6 class="card-title">starbacks</h6>
+                    <p class="card-text">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i></p>
+                        <div style="color: brown; font-weight:bold">150$</div>
+                    
+                </div>
+            </div>
+
+            <div class="card col-lg-3 col-md-4 col-sm-6 m-1 mt-5" >
+                <a href="" target="_blank">
+                    <img src="img/products/17.jpeg" style=" height:150px;" class="card-img-top" alt="css pic" height="265PX"></a>
+                <div class="card-body">
+                    <h6 class="card-title">starbacks</h6>
+                    <p class="card-text">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i></p>
+                        <div style="color: brown; font-weight:bold">150$</div>
+                    
+                </div>
+            </div>
+</div>
+</div>
+
+
+<!--offers-->
+<div class="container-fluid">
+    <div class="row justify-content-around pb-5 offers" style="border-radius: 7px;">
+        <div class="offer1 col-lg-6 col-md-4 col-sm-6 m-1 mt-5 ">
+            crazy deals 
+            <h2>Buy 1 Get 1 free</h2>
+            the best taste of coffee in one place
+        </div>
+
+        <div class="offer2 col-lg-5 col-md-4 col-sm-6 m-1 mt-5 ">
+            Up coming season
+            <h2>Made by love</h2>
+            the best classic coffee in one place
+        </div>
+
+        <br>
+
+        <div class="offer3 col-lg-4 col-md-5 col-sm-1 m-1 mt-5 ">
+            enjoy your coffee 
+            <h2>Greet service</h2>
+            hope to blease you
+        </div>
+
+        <div class="offer4 col-lg-4 col-md-5 col-sm-1 m-1 mt-5 ">
+            <h2>start your day with black coffee</h2>
+            the best classic coffee in one place
+            
+        </div>
+        <div class="offer5 col-lg-3 col-md-5 col-sm-1 m-1 mt-5 ">
+            Open mic night
+            <h2>Comming soon</h2>
+            
+        </div>
+        </div>
+        </div>
+
+
+        <!--footer-->
+        <footer class=" text-light">
+            <div class="container-fluid">
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <hr class="border-top my-3">
+                        <h5><img src="img/logo.webp" alt="good pic" class="logo"> Good Company</h5>
+                        <hr class="border-top my-3">
+                        <address>
+                            <p>Tel : 000-000-000</p>
+                            <p>Address : EGYPT</p>
+                            <p>Fax : 000-000-000</p>
+                        </address>
+                    </div>
+                    <div class="col-md-4">
+                        <hr class="border-top my-3">
+                        <h5><img src="img/logo.webp" alt="good pic" class="logo"> Important links</h5>
+                        <hr class="border-top my-3">
+                        <p><a href="" target="_blank">Visit Us</a></p>
+                        <p><a href="" target="_blank">Take alook</a></p>
+                        <p><a href="" target="_blank">Your health is more important</a></p>
+                    </div>
+                    <div class="col-md-4">
+                        <hr class="border-top my-3">
+                        <h5><img src="img/logo.webp" alt="good pic" class="logo"> Vision</h5>
+                        <hr class="border-top my-3">
+                        <p>Serveices for all </p>
+                        <p>Provide best serveices</p>
+                        <p>you will be better than before</p>
+                    </div>
+                </div>
+                <hr>
+                <span class="text-center d-block text-secondary">All Copyright &copy; is reserved</span>
+                <hr>
+            </div>
+        </footer>
+
+      <!--modal form-->
+       <!-- modal -->
+                <!-- Modal HTML Markup -->
+<div id="ModalLoginForm" class="modal fade" >
+    <div class="modal-dialog" role="document" >
+        <div class="modal-content modal-content-bg-warning" >
+            <div class="modal-header">
+                <h1 class="modal-bs-title text-light">Login</h1>
+            </div>
+            <div class="modal-body">
+                <form role="form" method="POST" action="">
+                    <input type="hidden" name="_token" value="">
+                    <div class="form-group">
+                        <label class="control-label text-light">E-Mail Address</label>
+                        <div>
+                            <input type="email" class="form-control input-lg" name="email" value="">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label text-light">Password</label>
+                        <div>
+                            <input type="password" class="form-control input-lg" name="password">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div>
+                            <button type="submit" class="btn btn-dark text-light m-2">Login</button>
+                            <br>
+
+                            <a class="btn btn-link text-primary" href="">Forgot Your Password?</a>
+                        </div>
+                    </div>
+                </form>
+                <h1 class="text-light">Or Signup!</h1>
+                <form role="form" method="POST" action="">
+                    <input type="hidden" name="_token" value="">
+                    <div class="form-group">
+                        <label class="control-label text-light">Username</label>
+                        <div>
+                            <input type="text" class="form-control input-lg" name="name" value="">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label text-light">E-Mail Address</label>
+                        <div>
+                            <input type="email" class="form-control input-lg" name="email" value="">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label text-light">Password</label>
+                        <div>
+                            <input type="password" class="form-control input-lg" name="password">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label text-light">Confirm Password</label>
+                        <div>
+                            <input type="password" class="form-control input-lg" name="password_confirmation">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div>
+                            <button type="submit" class="btn btn-dark text-light m-2">
+                                Register
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+            <!-- js -->
+                    <!-- jQuery library -->
+                    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+
+                    <!-- Popper JS -->
+                    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+                    <script src="js/script.js"></script>
+</body>
+</html>
